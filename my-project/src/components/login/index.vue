@@ -84,7 +84,7 @@ export default {
             this.ruleForm2.username === "admin" &&
             this.ruleForm2.password === "123456"
           ) {
-            this.logining = true;
+            this.logining = false;
             this.$router.push({ name: "sidebar" });
           } else {
             this.logining = false;
